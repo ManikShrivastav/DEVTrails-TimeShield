@@ -38,9 +38,9 @@ We focus exclusively on the Q-Commerce sector (e.g., Zepto, Blinkit, Swiggy Inst
 ## 🏍️ Real-World Scenarios (Meet Raju)
 *Raju is a Q-commerce rider operating in South Delhi. Here is how TimeShield protects his time:*
 
-1. 🌧️ **Hyper-Local Waterlogging:** A sudden severe downpour (>65mm/hr) paired with gridlock traffic (<5 km/h) hits Raju's geofenced zone. Delivering in 10 minutes is physically impossible. The platform halts orders for 2 hours. *TimeShield auto-detects the anomaly and pays Raju for 2 lost hours.*
-2. 📵 **Telecom Shutdown (Civic Disruption):** Due to local unrest, the government suspends mobile internet. Without 4G, Raju's app is dead. *TimeShield's edge-computing logs his location offline and triggers a retrospective payout once connectivity is restored.*
-3. 💥 **Global App Crash:** The Q-Commerce platform's servers go down nationally for 3 hours. Raju is on his bike, the weather is perfect, but he cannot receive orders. *TimeShield's platform monitor detects the outage and issues a payout.*
+1. **Hyper-Local Waterlogging:** A sudden severe downpour (>65mm/hr) paired with gridlock traffic (<5 km/h) hits Raju's geofenced zone. Delivering in 10 minutes is physically impossible. The platform halts orders for 2 hours. *TimeShield auto-detects the anomaly and pays Raju for 2 lost hours.*
+2. **Telecom Shutdown (Civic Disruption):** Due to local unrest, the government suspends mobile internet. Without 4G, Raju's app is dead. *TimeShield's edge-computing logs his location offline and triggers a retrospective payout once connectivity is restored.*
+3. **Global App Crash:** The Q-Commerce platform's servers go down nationally for 3 hours. Raju is on his bike, the weather is perfect, but he cannot receive orders. *TimeShield's platform monitor detects the outage and issues a payout.*
 
 ---
 
@@ -48,11 +48,11 @@ We focus exclusively on the Q-Commerce sector (e.g., Zepto, Blinkit, Swiggy Inst
 
 TimeShield operates silently in the background, minimizing friction for the worker:
 
-1. **📲 Frictionless Onboarding:** Rider logs in via SSO. The system analyzes their historical earning data to establish a baseline **Average Hourly Wage**.
-2. **🤖 Automated Weekly Policy:** Every Sunday at 11:59 PM, the AI evaluates the upcoming 7-day risk for the rider's specific pincode and deducts a micro-premium from their wallet.
-3. **📡 Active Parametric Polling:** The backend continuously polls Weather, Traffic, and Platform APIs every 15 minutes.
-4. **🛡️ Trigger & Fraud Validation:** When an event threshold is breached, the system runs anomaly detection for GPS spoofing and cross-references platform activity.
-5. **💸 Zero-Touch Payout:** Once validated, `Lost Hours × Average Hourly Wage` is instantly routed to the worker via a simulated payment gateway (UPI).
+1. **Frictionless Onboarding:** Rider logs in via SSO(Single Sign-On). The system analyzes their historical earning data to establish a baseline **Average Hourly Wage**.
+2. **Automated Weekly Policy:** Every Sunday at 11:59 PM, the AI evaluates the upcoming 7-day risk for the rider's specific pincode and deducts a micro-premium from their wallet.
+3. **Active Parametric Polling:** The backend continuously polls Weather, Traffic, and Platform APIs every 15 minutes.
+4. **Trigger & Fraud Validation:** When an event threshold is breached, the system runs anomaly detection for GPS spoofing and cross-references platform activity.
+5. **Zero-Touch Payout:** Once validated, `Lost Hours × Average Hourly Wage` is instantly routed to the worker via a simulated payment gateway (UPI).
 
 ---
 
