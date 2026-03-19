@@ -70,7 +70,10 @@ Pw = Σ [ α·P(Wd) + β·P(Sd) + γ·P(Td) ] × µ_hourly × H_expected
 *   `µ_hourly`: The rider's baseline hourly wage (calculated from historical platform data).
 *   `H_expected`: Expected working hours for the week.
 
-### 2. Intelligent Fraud Validation (Isolation Forest)
+### 2. Risk Profiling & Pricing (XGBoost): 
+We will utilize a gradient boosting model to predict the likelihood of disruptions based on historical weather data, traffic patterns, and festive calendars per pincode. This dynamically adjusts the α, β, γ risk weights to price the weekly premium fairly.
+
+### 3. Intelligent Fraud Validation (Isolation Forest)
 Zero-touch payouts require zero-tolerance for fraud. Our anomaly detection models validate claims through:
 *   **Location Verification:** Cross-checks active GPS pings against the disruption zone.
 *   **Anti-Spoofing:** Flags physically impossible GPS jumps (detects mock location apps).
