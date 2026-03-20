@@ -97,6 +97,7 @@ TimeShield adopts a **zero-trust, adversarially resilient architecture** to prev
 We move beyond basic GPS validation and implement a **multi-signal behavioral intelligence system.**
 
 Instead of asking “Is the location correct?”, TimeShield evaluates:
+
 **👉 “Is the worker’s behavior consistent with real-world conditions?”**
 
 ## 🧠 Multi-Layer Verification:
@@ -162,6 +163,7 @@ We ensure strong fraud prevention without harming genuine users:
 👉 GPS can be spoofed. Behavior cannot be faked at scale.
 
 TimeShield secures its system by validating how users behave, not just where they appear.
+
 
 
 ## ⚡ The Parametric Trigger Engine
